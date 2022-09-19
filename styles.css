@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lexend Deca';
+}
+
+body {
+    background-color: #f0f0e4;
+}
+
+nav {
+    position: fixed;
+    width: 100vw;
+    height: 15vh;
+    margin-top: -15vh;
+    background-color: #3f639c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-bar {
+    width: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-bar a{
+    color: white;
+}
+
+#nav-bar a:hover {
+    color: #db5f29;
+}
+
+.logo {
+    height: 80%;
+}
+
+img {
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    /* height: 200vh; */
+    margin-top: 15vh;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #db5f29;
+    margin-top: 2vh;
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #db5f29;
+    margin-top: 2vh;
+}
+
+h3 {
+    margin-top: 1vh;
+}
+
+li {
+    list-style: none;
+}
+
+.book {
+    color: #3f639c;
+}
+
+.book:hover {
+    text-decoration:underline;
+}
+
+footer {
+    width: 100%;
+    height: 20vh;
+    background-color: #bbbbb7;
+}
+
+.column {
+    background-color: transparent;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.column img {
+    align-self: center;
+    margin: 2vh 0 2vh 0;
+}
